@@ -26,7 +26,7 @@ function git(){
     window.open("https://github.com/rajanchauhan165","_blank")
 }
 function res(){
-    window.open("https://drive.google.com/file/d/18rWcBNNIykBi2k5jKwmOAfipzPWHl2Eq/view?usp=sharing","_blank")
+    window.open("https://drive.google.com/file/d/16j4oGCTEkN8KWyn_E8pqLqmzuic6D9HY/view?usp=sharing","_blank")
 }
 function hire(){
     window.open("mailto:rajanchauhan165@gmail.com?subject=I found your profile online and I'd like to...&body=Hi Rajan,")
