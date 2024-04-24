@@ -26,13 +26,29 @@ function git(){
     window.open("https://github.com/rajanchauhan165","_blank")
 }
 function res(){
-    window.open("https://drive.google.com/file/d/16j4oGCTEkN8KWyn_E8pqLqmzuic6D9HY/view?usp=sharing","_blank")
+    window.open("https://www.linkedin.com/in/rajan165/","_blank")
 }
 function hire(){
     window.open("mailto:rajanchauhan165@gmail.com?subject=I found your profile online and I'd like to...&body=Hi Rajan,")
 }
 
-function sendEmail(){
-    window.open("mailto:rajanchauhan165@gmail.com?subject=PORTFOLIO&body=Name: "+document.getElementById("cformname").value
-    +"<br> Email: "+document.getElementById("cformemail").value +"<br> Message: "+document.getElementById("cformmessage").value)
+function sendEmail() {
+    var name = document.getElementById("cformname").value;
+    var email = document.getElementById("cformemail").value;
+    var message = document.getElementById("cformmessage").value;
+
+    if (!name || !email || !message) {
+        alert("Please fill in all fields.");
+        return;
+    }
+
+    var emailBody = "Name: " + name + "\n";
+    emailBody += "Email: " + email + "\n";
+    emailBody += "Message: " + message;
+
+     window.open("mailto:rajanchauhan165@gmail.com.com?subject=Portfoli DM&body="+emailBody);
+
+    document.getElementById("cformname").value = "";
+    document.getElementById("cformemail").value = "";
+    document.getElementById("cformmessage").value = "";
 }
